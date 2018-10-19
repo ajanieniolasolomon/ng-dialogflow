@@ -121,6 +121,46 @@
           }
         }
       }
+    },
+    "ng-dialogFlow": {
+      "root": "projects/ng-dialog-flow",
+      "sourceRoot": "projects/ng-dialog-flow/src",
+      "projectType": "library",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-dialog-flow/tsconfig.lib.json",
+            "project": "projects/ng-dialog-flow/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/ng-dialog-flow/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-dialog-flow/src/test.ts",
+            "tsConfig": "projects/ng-dialog-flow/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-dialog-flow/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-dialog-flow/tsconfig.lib.json",
+              "projects/ng-dialog-flow/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "ng-dialogflow"
