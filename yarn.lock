@@ -5208,7 +5208,7 @@ selenium-webdriver@^2.53.2:
   version "2.53.3"
   resolved "https://registry.yarnpkg.com/selenium-webdriver/-/selenium-webdriver-2.53.3.tgz#d29ff5a957dff1a1b49dc457756e4e4bfbdce085"
   dependencies:
-    adm-zip "0.4.4"
+    adm-zip "0.4.11"
     rimraf "^2.2.8"
     tmp "0.0.24"
     ws "^1.0.1"
@@ -6228,7 +6228,7 @@ webdriver-manager@^12.0.6:
   version "12.1.0"
   resolved "https://registry.yarnpkg.com/webdriver-manager/-/webdriver-manager-12.1.0.tgz#f6601e52de5f0c97fc7024c889eeb2416f2f1d9d"
   dependencies:
-    adm-zip "^0.4.9"
+    adm-zip "^0.4.11"
     chalk "^1.1.1"
     del "^2.2.0"
     glob "^7.0.3"
