@@ -18,7 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    NgDialogFlowModule.forRoot({token: 'ea4e389270ef4a058be1a77970b34d57'})
+    NgDialogFlowModule.forRoot({token: 'your token'})
   ],
   providers: [AppService, NgDialogFlowService],
   bootstrap: [AppComponent]

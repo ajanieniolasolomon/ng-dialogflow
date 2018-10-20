@@ -1,23 +1,24 @@
-
 # Installation
 
-#### An Angular / Ionic  library for DialogFlow . Powered by [DialogFlow](www.dialogflow.com) .You will need an  _Access Token_  from  DialogFlow to access the full function of this machine learning/natural language processing library.
+#### Dialogflow is an enterprise-grade NLU platform that makes it easy for developers to design and integrate conversational user interfaces into mobile apps, web applications, devices, and bots.
+
+####  'ng-dialog-flow' an Angular / Ionic  library for DialogFlow  . Powered by [DialogFlow](www.dialogflow.com) .You will need an  _Access Token_  from  DialogFlow to access the full function of this machine learning/natural language processing library.
 ___
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://opensource.org/licenses/MIT)[![Build Status](https://travis-ci.com/ajanieniolasolomon/ng-dialogflow.svg?branch=master)](https://travis-ci.com/ajanieniolasolomon/ng-dialogflow)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ajanieniolasolomon/ng-dialogflow/)[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)]()
 
 
- > npm install ng-dialogflow 
+ > npm install ng-dialog-flow
   
 
 
-> yarn install ng-dialogflow   
+> yarn add ng-dialog-flow
 
 
- # Usage
+# Usage
 
- ### Import  Main Module
+### Import  Main Module
 
 ```bash
 
@@ -32,9 +33,11 @@ import { NgDialogFlowModule,NgDialogFlowService} from 'ng-dialog-flow';
    //...
     NgDialogFlowModule.forRoot({token:'xxxxxxxxxxx'})
   ],
+  providers: [NgDialogFlowService],
+  bootstrap: [AppComponent]
   })
    ```
-  ### Add to service
+### Add to service
    ```bash
 
 import { Injectable } from '@angular/core';
@@ -60,16 +63,16 @@ export class AppService {
 
 
    ```
-   # More
+# More
 
-  ### askQuestion
+### askQuestion
 
 #### Request parameters:
   *  message
   * timezone
   * sessionid
   *  lang
- ### Response object
+###   Response object
 ```
  export interface Message {
 	platform: string;
@@ -120,5 +123,14 @@ export interface RootObject {
 }
 
 ```
-### keywords
-*** DialogFlow Angular Ionic **
+## Contributing
+
+####  Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.Repo name [ng-dialog-flow](https://github.com/ajanieniolasolomon/ng-dialogflow) .
+
+##  How can I thank you?
+
+#### Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or anywhere? Spread the word!
+
+#### Don't forget to follow me on [twitter](https://twitter.com/ajani_eniola) !
+
+### Thanks! Ajani Eniola Solomon.

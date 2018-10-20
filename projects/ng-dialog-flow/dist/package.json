@@ -1,23 +1,29 @@
 {
-  "name": "ng-dialog-flow",
-  "version": "0.0.1",
-  "author": "Ajani Eniola Solomon<eniolsolomon@gmail.com>",
-  "license": "MIT",
-  "peerDependencies": {
-    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
-    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
-  },
-  "main": "bundles/ng-dialog-flow.umd.js",
-  "module": "fesm5/ng-dialog-flow.js",
-  "es2015": "fesm2015/ng-dialog-flow.js",
-  "esm5": "esm5/ng-dialog-flow.js",
-  "esm2015": "esm2015/ng-dialog-flow.js",
-  "fesm5": "fesm5/ng-dialog-flow.js",
-  "fesm2015": "fesm2015/ng-dialog-flow.js",
-  "typings": "ng-dialog-flow.d.ts",
-  "metadata": "ng-dialog-flow.metadata.json",
-  "sideEffects": false,
-  "dependencies": {
-    "tslib": "^1.9.0"
-  }
+    "name": "ng-dialog-flow",
+    "version": "0.0.9",
+    "author": "Ajani Eniola Solomon<eniolsolomon@gmail.com>",
+    "license": "MIT",
+    "keywords": [
+        "Ionic",
+        "Angular",
+        "DialogFlow"
+
+    ],
+    "peerDependencies": {
+        "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+        "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+    },
+    "main": "bundles/ng-dialog-flow.umd.js",
+    "module": "fesm5/ng-dialog-flow.js",
+    "es2015": "fesm2015/ng-dialog-flow.js",
+    "esm5": "esm5/ng-dialog-flow.js",
+    "esm2015": "esm2015/ng-dialog-flow.js",
+    "fesm5": "fesm5/ng-dialog-flow.js",
+    "fesm2015": "fesm2015/ng-dialog-flow.js",
+    "typings": "ng-dialog-flow.d.ts",
+    "metadata": "ng-dialog-flow.metadata.json",
+    "sideEffects": false,
+    "dependencies": {
+        "tslib": "^1.9.0"
+    }
 }
